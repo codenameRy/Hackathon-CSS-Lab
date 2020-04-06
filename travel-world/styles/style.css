@@ -1,0 +1,92 @@
+body {
+    margin: 30px;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url(../images/travel-map.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-section {
+    justify-content: auto;
+}
+
+
+.vacation {
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: left;
+}
+
+.vacay-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+.vacations-badge {
+    background-color: #ffffff;
+    width: 150px;
+    height: 150px;
+    color: #111111;
+    justify-content: right;
+    display: flex;
+    justify-content: right;
+}
+
+
+.books-div {
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.books-div img {
+    width: 200px;
+    height: 300px;
+    animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotatey(0deg);
+    }
+    to {
+      transform: rotatey(360deg);
+    }
+  }
+
+p {
+    margin: 30px;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin: auto;
+}
+
+li {
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    
+}
